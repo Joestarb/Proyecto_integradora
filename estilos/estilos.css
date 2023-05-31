@@ -1,0 +1,156 @@
+/*globales*/
+*{
+    margin: 0 auto;
+    text-decoration: none;
+    /* border: 2px solid red; */
+}
+:root{
+    --colorPrimario:#FFF8E1;
+    --blanco:white;
+    --negro:black; 
+    --gris:grey; 
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box; /* ayuda a no marcar diferencia en una box model */
+    scroll-snap-type: y mandatory;
+}
+*, *:before, *:after {
+    box-sizing: inherit; 
+    /*significa que cualquier elemento 
+    que esté dentro del elemento seleccionado
+    heredará la propiedad box-sizing del elemento padre.*/
+  }
+h1,h2,h3,h4,h5,h5,p,span{
+    color: var(--negro);
+}
+
+a{
+    color: var(--negro);
+}
+
+body{
+    margin: 0 auto;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.alinear_texto{
+    text-align: center;
+}
+
+/* --------------------------globales--------------------------- */
+/* ------------------------------barra de busqueda-------------------------- */
+
+
+
+.top_search img{
+    width: 10rem ;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+
+.top_search{
+    display: flex;
+    margin: 0rem 5rem 0rem 5rem;
+}
+
+
+.top_search_icons{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+@media (max-width:767px){
+    .search{
+        display: none;
+    }
+    .top_search{
+        display: flex;
+        }
+.top_search img{
+        width: 10rem;   
+    }
+}
+  
+/* ------------------------------barra de busqueda-------------------------- */
+
+
+.hero{
+    background-image: url(/imagenes/Hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70rem;
+}
+.hero a{
+    display:flex;
+    justify-content: center;
+    }
+@media (min-width:768px ){
+    .hero nav{
+        display: flex;
+        justify-content: space-between;
+    }  
+}
+
+
+
+.contenido_hero span{
+    font-size: 1rem;
+}
+
+
+.contenido_hero button{
+    border: none;
+    background-color: var(--colorPrimario);
+    border-radius: 1rem;
+    width: 12rem;
+    height: 5rem;
+}
+
+@media (min-width:768px ){
+    .contenido_hero{
+        margin-top: 22rem;
+        margin-left: 7rem;
+    }   
+    .contenido_hero h1{
+        font-size: 7rem;
+    }
+}
+
+
+@media (max-width:768px ){
+    .contenido_hero{
+    margin-top: 20rem;
+    }
+    .contenido_hero h1{
+        font-size: 5rem;
+    }
+    
+}
+
+
+
+
+/* ------------------------------login-------------------------------- */
+.background_color{
+   background-color: var(--colorPrimario);
+}
+
+.login_navbar{
+    display: flex;
+    align-items: center;
+}
+.login_navbar_nav {
+    display: flex;
+}
+.login_navbar img{
+    width: 10rem;
+}
+/* ------------------------------footer-------------------------------- */
+form{
+    border: 2px --negro;
+}

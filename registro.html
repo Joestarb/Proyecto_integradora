@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/estilos.css">
+    <link rel="stylesheet" href="/estilos/registro.css">
+    <title>Document</title>
+</head>
+
+<body class="background_color">
+    <header class="login_navbar">
+        <nav>
+            <a href="/index.html">Inicio</a>
+            <span>
+                <a href="">Promociones</a>
+                <a href="">Accsesorios</a>
+            </span>
+            <a href="">Nosotros</a>
+            <a href="">Contacto</a>
+        </nav>
+
+        <img src="/imagenes/LOGO.svg" alt="logo hilos con tradicion">
+        <span><p>Mexico/MNX</p></span>
+ 
+        <div>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-shopping-bag" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path
+                        d="M6.331 8h11.339a2 2 0 0 1 1.977 2.304l-1.255 8.152a3 3 0 0 1 -2.966 2.544h-6.852a3 3 0 0 1 -2.965 -2.544l-1.255 -8.152a2 2 0 0 1 1.977 -2.304z" />
+                    <path d="M9 11v-5a3 3 0 0 1 6 0v5" />
+                </svg>
+            </a>
+            <a href="/login.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="44" height="44"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+                    <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+                </svg>
+            </a>
+
+        </div>
+
+
+    </header>
+    <main class="login_inicioSesion">
+
+        <section class="login_imagen">
+        </section>
+        <section class="login_inicioSesion_formulario">
+
+            <form action="/login" method="post">
+                <h2 class="alinear_texto">Crea una cuenta</h2>
+                <div class="form-group">
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Nombres</label>
+                    <input type="text" id="text" name="text" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Apellido</label>
+                    <input type="text" id="text" name="text" required>        
+                </div>
+                <div class="form-group">
+                    <label for="password">Contraseña</label>
+                    <input type="password" id="password" name="password" required>
+                    <br> <br>
+                    <button type="submit" class="btn-submit">Registrate</button>
+                </div>
+            </form>
+            <div class="login_registrate">
+                <p>¿Ya tienes cuenta?</p>
+                <button><a href="/registro.html">Iniciar sesion</a></button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
