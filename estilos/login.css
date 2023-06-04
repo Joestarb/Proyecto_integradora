@@ -1,6 +1,6 @@
 /* ----------------inicio de sesion--------------------------- */
-.login_navbar a{
-  gap:2rem;
+ a{
+ margin :2rem;
 }
 
 @media (max-width:768px ){

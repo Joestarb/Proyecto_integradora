@@ -1,4 +1,7 @@
 /* ----------------inicio de sesion--------------------------- */
+a{
+  margin :2rem;
+ }
 @media (max-width:768px ){
     span{
       display: none;
