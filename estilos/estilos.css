@@ -150,6 +150,24 @@ body{
 .login_navbar img{
     width: 10rem;
 }
+
+/* --------------------------otros------------------------------------------ */
+.c_navbar{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  @media (max-width:767px ){
+    img{
+        display: none;
+    }
+    .c_navbar{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+  }
+  
 /* ------------------------------footer-------------------------------- */
 form{
     border: 2px --negro;

@@ -90,4 +90,19 @@
     background-size: cover;
       width: 100%;
 }
-/* ----------------inicio de sesion--------------------------- */
+/* ----------------otros--------------------------- */
+.c_navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width:767px ){
+  img{
+      display: none;
+  }
+  .c_navbar{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+  }
+}

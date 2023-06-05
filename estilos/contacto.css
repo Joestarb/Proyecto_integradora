@@ -15,10 +15,6 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   } 
 
-  .c_navbar{
-    display: flex;
-    justify-content: space-between;
- }
 @media (min-width:768px ){
 
  .size{
@@ -41,16 +37,7 @@
  }
 
 }
-@media (max-width:767px ){
-    img{
-        display: none;
-    }
-    .c_navbar{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-}
+
 
 
 
