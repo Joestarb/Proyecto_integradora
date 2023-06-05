@@ -2,6 +2,8 @@
 *{
     margin: 0 auto;
     text-decoration: none;
+    font-family: 'Inter', sans-serif;
+
     /* border: 2px solid red; */
 }
 :root{
