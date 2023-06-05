@@ -1,11 +1,14 @@
-
+.btn{
+   width: 20rem;
+}
 .c_navbar{
     background-color: #FFF8E1;
     padding: 1rem;
 }
 .content_main{
+   margin-top: 3rem;
     display: grid;
-        margin: 4rem;
+        
 }
 .input-field {
     background-color: #EDEDED;
@@ -15,7 +18,7 @@
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   } 
 
-@media (min-width:768px ){
+@media (min-width:1200px ){
 
  .size{
     width: 50rem; 
@@ -36,8 +39,14 @@
     width: 23rem;
  }
 
-}
+}  
 
+@media (max-width:767px ){
+   img{
+      display: none;
+   }
+    
+}
 
 
 

@@ -153,21 +153,22 @@ body{
 
 /* --------------------------otros------------------------------------------ */
 .c_navbar{
+    background-color: var(--colorPrimario);
     display: flex;
     justify-content: space-between;
   }
+
+ 
   
   @media (max-width:767px ){
-    img{
-        display: none;
-    }
     .c_navbar{
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
   }
-  
+  /* ---------------------------------------------otro------------------------- */
+
 /* ------------------------------footer-------------------------------- */
 form{
     border: 2px --negro;

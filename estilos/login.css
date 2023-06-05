@@ -91,18 +91,3 @@
       width: 100%;
 }
 /* ----------------otros--------------------------- */
-.c_navbar{
-  display: flex;
-  justify-content: space-between;
-}
-
-@media (max-width:767px ){
-  img{
-      display: none;
-  }
-  .c_navbar{
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-  }
-}
