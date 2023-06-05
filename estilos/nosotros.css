@@ -1,0 +1,9 @@
+@media (min-width:768px ){
+    .n_main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+        margin-top: 3rem;
+    }
+    
+}
